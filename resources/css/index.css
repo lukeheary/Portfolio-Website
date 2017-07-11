@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+/** HEADER **/
+.header {
+  background-color: #4F6777;
+  margin: auto;
+  padding: 30px 20px 5px 20px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 6vmin;
+  margin: auto;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.header p {
+  color: white;
+  font-size: 2vmin;
+  font-weight: 100;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+}
+
+/** BODY **/
+.aboutme {
+  background-color: #9C8B7F;
+  padding: 250px 0px 400px 0px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.aboutme h2 {
+  color: white;
+  text-align: center;
+  margin-top: -220px;
+  font-weight: 100;
+  font-size: 3vmin;
+  font-family: Helvetica;
+
+}
+
+.programmer {
+  background-color: #BCBABA;
+  padding: 350px 0px 350px 0px;
+  font-size: 20px;
+  margin: auto;
+}
