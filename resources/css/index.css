@@ -5,13 +5,15 @@ body {
 /** HEADER **/
 .header {
   background-color: #4F6777;
-  margin: auto;
-  padding: 30px 20px 5px 20px;
+  margin: 0 auto;
+  padding: 30px 0px 5px 0px;
+  position: fixed;
+  width: 100%;
 }
 
 .header h1 {
   color: white;
-  font-size: 6vmin;
+  font-size: 50px;
   margin: auto;
   text-align: center;
   font-family: Helvetica;
@@ -19,7 +21,7 @@ body {
 
 .header p {
   color: white;
-  font-size: 2vmin;
+  font-size: 20px;
   font-weight: 100;
   margin-top: 0px;
   text-align: center;
@@ -28,10 +30,10 @@ body {
 
 /** BODY **/
 .aboutme {
-  background-color: #9C8B7F;
-  padding: 250px 0px 400px 0px;
+  background-color: #CD9155; /**9C8B7F**/
+  padding: 400px 0px 80px 0px;
   font-size: 20px;
-  margin: auto;
+  width: 100%;
 }
 
 .aboutme h2 {
@@ -39,13 +41,21 @@ body {
   text-align: center;
   margin-top: -220px;
   font-weight: 100;
-  font-size: 3vmin;
+  font-size: 28px;
   font-family: Helvetica;
+}
 
+.aboutme p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 7%;
+  font-family: 'Assistant', sans-serif;
 }
 
 .programmer {
-  background-color: #BCBABA;
+  background-color: #D2D2D2;
   padding: 350px 0px 350px 0px;
   font-size: 20px;
   margin: auto;
