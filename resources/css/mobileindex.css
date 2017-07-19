@@ -1,0 +1,51 @@
+@media only screen and (max-width: 624px) {
+
+  .wrap {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+  .header {
+    height: 130px;
+  }
+
+  .header .navbar a {
+    display:inline-block;
+  }
+
+  #one {
+    padding-top: 200px;
+    height: 400px;
+  }
+
+  #two {
+    height: 900px;
+  }
+
+  .section {
+    line-height: 30px;
+  }
+
+  .section h2 {
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .section h1 {
+    text-align: center;
+    padding: 30px 0px 0px 0px;;
+  }
+
+  .section h2 {
+    text-align: center;
+    padding: 30px 0px 0px 0px;;
+  }
+
+  .section p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 15px;
+  }
+
+}

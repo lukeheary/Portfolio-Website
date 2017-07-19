@@ -1,62 +1,88 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
 body {
-  margin: 0;
+  font-family: Helvetica;
+  background: -webkit-linear-gradient(left, #6B8FAD , #AD6B6B);
 }
 
 /** HEADER **/
 .header {
-  background-color: #4F6777;
-  margin: 0 auto;
-  padding: 30px 0px 5px 0px;
-  position: fixed;
+  background: -webkit-linear-gradient(left, #6B8FAD , #AD6B6B);
+  height: 100px;
   width: 100%;
+  padding: 30px 0px 20px 0px;
+  position: fixed;
+  flex-wrap: wrap;
+  border-bottom: 1px dotted white;
 }
 
 .header h1 {
   color: white;
   font-size: 50px;
   margin: auto;
+  padding-bottom: 15px;
   text-align: center;
-  font-family: Helvetica;
 }
 
-.header p {
+.header .navbar {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
-  margin-top: 0px;
   text-align: center;
-  font-family: 'Assistant', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+
+.header .navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px 20px 10px;
 }
 
 /** BODY **/
-.aboutme {
-  background-color: #CD9155; /**9C8B7F**/
-  padding: 400px 0px 80px 0px;
-  font-size: 20px;
+#one {
+  background-color: white;
+  color: #6B8FAD;
+  padding-top: 150px;
+}
+
+#two {
+  background: -webkit-linear-gradient(left, #6B8FAD , #AD6B6B);
+  color: white;
+  height: 800px;
+}
+
+.section {
+  height: 550px;
   width: 100%;
+  display: block;
+  flex-wrap: wrap;
+  text-align: justify;
+  line-height: 30px;
 }
 
-.aboutme h2 {
-  color: white;
-  text-align: center;
-  margin-top: -220px;
-  font-weight: 100;
-  font-size: 28px;
-  font-family: Helvetica;
+.section h1 {
+  padding-left: 20%;
+  padding-top: 150px;
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 
-.aboutme p {
-  color: white;
-  text-align: center;
+.section h2 {
+  font-size: 25px;
+  text-align: justify;
+  padding: 0px 15px;
+  padding-left: 20%;
+
+}
+
+.section p {
+  padding-left: 20%;
+  padding-right: 20%;
   font-size: 20px;
+  display: flex;
   font-weight: 100;
-  margin: 0 7%;
-  font-family: 'Assistant', sans-serif;
-}
-
-.programmer {
-  background-color: #D2D2D2;
-  padding: 350px 0px 350px 0px;
-  font-size: 20px;
-  margin: auto;
 }
